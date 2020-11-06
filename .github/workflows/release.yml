@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     env:
-      IMAGE_NAME: mikefarah/yq
+      IMAGE_NAME: bahetiamit/yq
     runs-on: ubuntu-latest
     steps:
       - name: Get latest release tag      
